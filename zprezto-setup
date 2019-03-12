@@ -8,3 +8,4 @@ for rcfile in "${ZDOTDIR:-$HOME}"/.zprezto/runcoms/^README.md(.N); do
 done
 
 chsh -s /bin/zsh
+sudo chsh -s /bin/zsh
