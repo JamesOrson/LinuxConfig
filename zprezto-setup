@@ -9,3 +9,5 @@ done
 
 chsh -s /bin/zsh
 sudo chsh -s /bin/zsh
+
+echo 'source "${ZDOTDIR:-$HOME}/.zprezto/init.zsh"' >> ~/.zshrc
